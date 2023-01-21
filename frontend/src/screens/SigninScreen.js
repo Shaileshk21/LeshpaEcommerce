@@ -15,8 +15,8 @@ export default function SigninScreen() {
   const redirectInUrl = new URLSearchParams(search).get('redirect');
   const redirect = redirectInUrl ? redirectInUrl : '/';
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('guest@gmail.com');
+  const [password, setPassword] = useState('123');
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;
@@ -54,6 +54,7 @@ export default function SigninScreen() {
 
           <Form.Control
             type="email"
+            defaultValue="guest@gmail.com"
             required
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -63,6 +64,7 @@ export default function SigninScreen() {
 
           <Form.Control
             type="password"
+            defaultValue="123"
             required
             onChange={(e) => setPassword(e.target.value)}
           />
