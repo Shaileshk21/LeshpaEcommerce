@@ -79,10 +79,10 @@ function App() {
       >
         <ToastContainer position="bottom-center" limit={1} />
         <header>
-          <Navbar bg="dark" variant="dark" expand="lg">
+          <Navbar bg="info" variant="info" expand="lg">
             <Container>
               <Button
-                variant="dark"
+                variant="info"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
               >
                 <i className="fas fa-bars"></i>
