@@ -51,9 +51,8 @@ We tried to use a completely modern tech stack while testing out some new techno
 
 - [React Bootstrap](https://ant.design/)
 - [Redux toolkit](https://redux-toolkit.js.org/)
-- [Cloudinary](https://cloudinary.com//)
+- [React Bootsrtap](https://react-bootstrap.github.io/)
 - [Axios](https://axios-http.com/docs/intro)
-- [NodeMailer](https://nodemailer.com//)
 
 <br/>
 
