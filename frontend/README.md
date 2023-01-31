@@ -58,7 +58,7 @@ We tried to use a completely modern tech stack while testing out some new techno
 
 # Author
 
-- [Shailesh Kumar](https://github.com/sauravarora041294)
+- [Shailesh Kumar](https://github.com/Shaileshk21/)
 
 <br/>
 
